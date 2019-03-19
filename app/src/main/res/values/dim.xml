@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textfieldheight">55dp</dimen>
+    <dimen name="textfieldwidth">350dp</dimen>
+    <dimen name="textsize">20dp</dimen>
+    <dimen name="textsizecard">15dp</dimen>
+</resources>

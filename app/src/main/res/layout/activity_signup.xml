@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activity_signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+        <EditText
+            android:id="@+id/user_name"
+
+            android:inputType="textPersonName"
+            android:hint="Enter user name"
+
+            android:background="@drawable/custom_input_text"
+
+            android:layout_width="@dimen/textfieldwidth"
+            android:layout_height="@dimen/textfieldheight"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/color_placeHolder"
+            android:layout_marginTop="50dp"
+
+            />
+
+        <EditText
+
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+
+            android:layout_width="@dimen/textfieldwidth"
+            android:layout_height="@dimen/textfieldheight"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor"
+            android:background="@drawable/custom_input_text"
+            android:textColorHint="@color/color_placeHolder"
+            android:hint="Enter Email"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/password"
+
+            android:inputType="textPassword"
+
+            android:background="@drawable/custom_input_text"
+            android:layout_width="@dimen/textfieldwidth"
+            android:layout_height="@dimen/textfieldheight"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/color_placeHolder"
+            android:hint="Enter password"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/passagain"
+
+            android:inputType="textPassword"
+
+            android:background="@drawable/custom_input_text"
+
+            android:layout_width="@dimen/textfieldwidth"
+            android:layout_height="@dimen/textfieldheight"
+            android:ems="10"
+            android:textSize="@dimen/textsize"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor"
+            android:textColorHint="@color/color_placeHolder"
+            android:hint="Enter Password again"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_width="@dimen/textfieldwidth"
+            android:layout_height="@dimen/textfieldheight"
+            android:text="Sign up"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="signup"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/bg_text"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
